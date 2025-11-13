@@ -11,7 +11,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = "gemini-1.5-flash-latest";
+const MODEL = "gemini-2.0-flash";
 
 if (!GEMINI_API_KEY) {
     console.error("❌ Missing GEMINI_API_KEY in .env file");
